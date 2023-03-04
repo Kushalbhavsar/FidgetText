@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43B2B5A829B3C4EC008FC2BA /* FidgetTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B2B5A729B3C4EC008FC2BA /* FidgetTextApp.swift */; };
+		43B2B5AA29B3C4EC008FC2BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B2B5A929B3C4EC008FC2BA /* ContentView.swift */; };
+		43B2B5AC29B3C4EE008FC2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B2B5AB29B3C4EE008FC2BA /* Assets.xcassets */; };
+		43B2B5AF29B3C4EE008FC2BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B2B5AE29B3C4EE008FC2BA /* Preview Assets.xcassets */; };
+		43B2B5B629B3C52A008FC2BA /* FidgetTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B2B5B529B3C52A008FC2BA /* FidgetTextView.swift */; };
+		43B2B5BA29B3C6D6008FC2BA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B2B5B929B3C6D6008FC2BA /* ColorExtension.swift */; };
+		43B2B5BD29B3CB35008FC2BA /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B2B5BC29B3CB35008FC2BA /* HapticManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43B2B5A429B3C4EC008FC2BA /* FidgetText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FidgetText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B2B5A729B3C4EC008FC2BA /* FidgetTextApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetTextApp.swift; sourceTree = "<group>"; };
+		43B2B5A929B3C4EC008FC2BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43B2B5AB29B3C4EE008FC2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43B2B5AE29B3C4EE008FC2BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43B2B5B529B3C52A008FC2BA /* FidgetTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetTextView.swift; sourceTree = "<group>"; };
+		43B2B5B929B3C6D6008FC2BA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		43B2B5BC29B3CB35008FC2BA /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43B2B5A129B3C4EC008FC2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43B2B59B29B3C4EC008FC2BA = {
+			isa = PBXGroup;
+			children = (
+				43B2B5A629B3C4EC008FC2BA /* FidgetText */,
+				43B2B5A529B3C4EC008FC2BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43B2B5A529B3C4EC008FC2BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43B2B5A429B3C4EC008FC2BA /* FidgetText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43B2B5A629B3C4EC008FC2BA /* FidgetText */ = {
+			isa = PBXGroup;
+			children = (
+				43B2B5A729B3C4EC008FC2BA /* FidgetTextApp.swift */,
+				43B2B5A929B3C4EC008FC2BA /* ContentView.swift */,
+				43B2B5B729B3C538008FC2BA /* FidgetTextView */,
+				43B2B5B829B3C6AC008FC2BA /* Extensions */,
+				43B2B5BB29B3CB23008FC2BA /* Helpers */,
+				43B2B5AB29B3C4EE008FC2BA /* Assets.xcassets */,
+				43B2B5AD29B3C4EE008FC2BA /* Preview Content */,
+			);
+			path = FidgetText;
+			sourceTree = "<group>";
+		};
+		43B2B5AD29B3C4EE008FC2BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43B2B5AE29B3C4EE008FC2BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43B2B5B729B3C538008FC2BA /* FidgetTextView */ = {
+			isa = PBXGroup;
+			children = (
+				43B2B5B529B3C52A008FC2BA /* FidgetTextView.swift */,
+			);
+			path = FidgetTextView;
+			sourceTree = "<group>";
+		};
+		43B2B5B829B3C6AC008FC2BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43B2B5B929B3C6D6008FC2BA /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		43B2B5BB29B3CB23008FC2BA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				43B2B5BC29B3CB35008FC2BA /* HapticManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43B2B5A329B3C4EC008FC2BA /* FidgetText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B2B5B229B3C4EE008FC2BA /* Build configuration list for PBXNativeTarget "FidgetText" */;
+			buildPhases = (
+				43B2B5A029B3C4EC008FC2BA /* Sources */,
+				43B2B5A129B3C4EC008FC2BA /* Frameworks */,
+				43B2B5A229B3C4EC008FC2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FidgetText;
+			productName = FidgetText;
+			productReference = 43B2B5A429B3C4EC008FC2BA /* FidgetText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43B2B59C29B3C4EC008FC2BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					43B2B5A329B3C4EC008FC2BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 43B2B59F29B3C4EC008FC2BA /* Build configuration list for PBXProject "FidgetText" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43B2B59B29B3C4EC008FC2BA;
+			productRefGroup = 43B2B5A529B3C4EC008FC2BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43B2B5A329B3C4EC008FC2BA /* FidgetText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43B2B5A229B3C4EC008FC2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B2B5AF29B3C4EE008FC2BA /* Preview Assets.xcassets in Resources */,
+				43B2B5AC29B3C4EE008FC2BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43B2B5A029B3C4EC008FC2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B2B5AA29B3C4EC008FC2BA /* ContentView.swift in Sources */,
+				43B2B5BD29B3CB35008FC2BA /* HapticManager.swift in Sources */,
+				43B2B5A829B3C4EC008FC2BA /* FidgetTextApp.swift in Sources */,
+				43B2B5B629B3C52A008FC2BA /* FidgetTextView.swift in Sources */,
+				43B2B5BA29B3C6D6008FC2BA /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43B2B5B029B3C4EE008FC2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43B2B5B129B3C4EE008FC2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43B2B5B329B3C4EE008FC2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FidgetText/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FidgetText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43B2B5B429B3C4EE008FC2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FidgetText/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FidgetText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43B2B59F29B3C4EC008FC2BA /* Build configuration list for PBXProject "FidgetText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B2B5B029B3C4EE008FC2BA /* Debug */,
+				43B2B5B129B3C4EE008FC2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B2B5B229B3C4EE008FC2BA /* Build configuration list for PBXNativeTarget "FidgetText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B2B5B329B3C4EE008FC2BA /* Debug */,
+				43B2B5B429B3C4EE008FC2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43B2B59C29B3C4EC008FC2BA /* Project object */;
+}
